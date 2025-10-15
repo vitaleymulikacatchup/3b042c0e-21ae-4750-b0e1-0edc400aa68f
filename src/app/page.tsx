@@ -26,14 +26,14 @@ export default function Home() {
           logoSrc="/brand/apple-tshirt-logo.svg"
           brandName="Apple T-Shirts"
           navItems={[{
-            name: "Home",
-            id: "hero"
+            label: "Home",
+            href: "#hero"
           }, {
-            name: "Products",
-            id: "product"
+            label: "Products",
+            href: "#product"
           }, {
-            name: "Contact",
-            id: "contact"
+            label: "Contact",
+            href: "#contact"
           }]}
         />
       </div>
@@ -43,10 +43,10 @@ export default function Home() {
         imageSrc="https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         buttons={[{
           text: "Shop Now",
-          href: "product"
+          href: "#product"
         }, {
           text: "Learn More",
-          href: "about"
+          href: "#about"
         }]}
         className="bg-blue-50"
         titleClassName="text-blue-900"
@@ -86,10 +86,10 @@ export default function Home() {
       <FooterBase
         columns={[{
           title: "Shop",
-          items: [{ label: "Men", href: "men" }, { label: "Women", href: "women" }]
+          items: [{ label: "Men", href: "#men" }, { label: "Women", href: "#women" }]
         }, {
           title: "Company",
-          items: [{ label: "About Us", href: "about" }, { label: "Contact", href: "contact" }]
+          items: [{ label: "About Us", href: "#about" }, { label: "Contact", href: "#contact" }]
         }]}
         logoSrc="/brand/apple-tshirt-logo.svg"
         copyrightText="© 2025 Apple T-Shirts"
